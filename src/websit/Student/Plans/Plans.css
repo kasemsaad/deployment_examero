@@ -1,0 +1,189 @@
+
+.teacher1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(5, 44, 44);
+
+}
+
+.teacher1box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    position: relative;
+
+}
+
+.teacher1box::before {
+    content: " ";
+    width: 90%;
+    height: 40px;
+    border-top: 2px solid #FE4F60;
+    position: absolute;
+    z-index:-1 ;
+    margin-top: 40px;
+}
+
+.teacher1box::after {
+    content: " ";
+    width: 135px;
+    height: 40px;
+    position: absolute;
+    background-color: #ffff;
+    z-index: -1;
+}
+
+.boxrow1 {
+    width:100%;
+    padding: 2px 4px !important;
+    background-color:#A6A0F4;
+}
+
+.boxpre1 {
+    /* width: 20vw; */
+    /* height: 65vh; */
+    background-image: url(../../../assets/image/home/Rectangle\ 4195.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    position: relative;
+    bottom: 4%;
+    flex-direction: row-reverse;    
+    }
+    .boxchil1{
+    margin-top: 20px;
+    /* height: 43.5vh;    */
+    padding-top: 100px !important;
+    /* padding-bottom: 20px !important; */
+    
+    }
+  
+    .boxchil1{
+    padding-top: 80px !important;
+    padding-bottom: 20px !important;
+
+}
+.boxpre1::after {
+    content: "";
+    position: absolute;
+    top: 15%;
+    right: 11%;
+    width: 10%;
+    background-image: url(../../../assets/icons/Home/Arrow\ 3.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 15px;
+    padding: 30px !important;
+    z-index: 9;
+}
+
+.checkicone {
+    margin: 0px 5px !important;
+}
+
+.fontSizeText{
+font-size: 16px;
+}
+@media screen and (max-width:780px) {
+
+.teacher1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(5, 44, 44);
+
+}
+
+.teacher1box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    position: relative;
+
+}
+
+.teacher1box::before {
+    content: " ";
+    width: 90%;
+    height: 40px;
+    border-top: 2px solid #FE4F60;
+    position: absolute;
+    z-index:-1 ;
+    margin-top: 40px;
+}
+
+.teacher1box::after {
+    content: " ";
+    width: 135px;
+    height: 40px;
+    position: absolute;
+    background-color: #ffff;
+    z-index: -1;
+}
+.fonto{
+    font-size: 30px;
+}
+.boxrow1 {
+    width:100%;
+    padding: 2px 4px !important;
+    background-color:#A6A0F4;
+}
+
+.boxpre1 {
+    /* width: 20vw; */
+    /* height: 65vh; */
+    background-image: url(../../../assets/image/home/Rectangle\ 4195.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    position: relative;
+    bottom: 4%;
+    flex-direction: row-reverse;    
+    }
+    .boxchil1{
+        width: 90%;
+    margin-top: 70px;
+    /* height: 43.5vh;    */
+    padding-top: 100px !important;
+    /* padding-bottom: 20px !important; */
+    
+    }
+  
+    .boxchil1{
+    padding-top: 80px !important;
+    padding-bottom: 20px !important;
+
+}
+.boxpre1::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    right: 6%;
+    width: 10%;
+    background-image: url(../../../assets/icons/Home/Arrow\ 3.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 15px;
+    padding: 30px !important;
+    z-index: 9999;
+}
+
+.checkicone {
+    margin: 0px 5px !important;
+}
+
+.fontSizeText{
+font-size: 16px;
+}
+}

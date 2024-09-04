@@ -1,0 +1,339 @@
+/* Root font-size assumption: 16px */
+:root {
+  font-size: 14px;
+  font-weight: 600;
+}
+.my-rounded-table-ta.trashT-but,
+.my-rounded-table-ta .squareT,
+.my-rounded-table-ta .eyeT {
+  border: none;
+  width: 33%;
+}
+.my-rounded-table-ta .squareT,
+.my-rounded-table-ta .eyeT {
+  border: none;
+  height: 100%;
+}
+.my-rounded-table-ta .trashT {
+  width: 20px;
+  height: 100%;
+}
+.my-rounded-table-ta {
+  margin: auto;
+  width: 100%; /* 891px */
+
+  direction: rtl;
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 0 0.5rem; /* 10px */
+}
+
+.my-rounded-table-ta thead tr th {
+  color: #fe4f60;
+}
+
+/* .my-rounded-table-ta thead tr td {
+  margin: 50px;
+  height: 2rem;
+} */
+.my-rounded-table-ta .trashT-but {
+  border: none;
+  width: 33%;
+  background-color: #120e4d;
+  height: 100%;
+}
+
+.my-rounded-table-ta.squareT,
+.my-rounded-table-ta.eyeT {
+  height: 99%;
+  width: 1.875rem; /* 30px */
+  padding: 0;
+
+  display: inline-block;
+  font-size: 1rem; /* Adjust font size for icons */
+}
+
+.my-rounded-table-ta .trashT {
+  color: #fe4f60;
+  height: 99%;
+  background-color: #120e4d;
+}
+
+.my-rounded-table-ta .squareT {
+  color: #ffffff;
+  background-color: #1d195d;
+}
+
+.my-rounded-table-ta .eyeT {
+  color: #ff8a00;
+  background-color: #120e4d;
+}
+
+.my-rounded-table-ta th,
+.my-rounded-table-ta td {
+  padding: 0;
+  height: 2rem; /* 30px */
+  color: aliceblue;
+}
+
+.my-rounded-table-ta tbody tr:nth-child(odd) {
+  background-color: #1d195d;
+}
+
+.my-rounded-table-ta tr:nth-child(even) {
+  background-color: #090631;
+}
+
+.my-rounded-table-ta th {
+  font-weight: 700;
+  color: #fe4f60;
+  border-bottom: 0.5px solid #a6a0f4;
+  padding: 7px;
+}
+
+/* Apply border-radius to the entire row by targeting the first and last cells */
+.my-rounded-table-ta tbody tr td:first-child {
+  border-top-left-radius: 0rem; /* 8px */
+  border-bottom-left-radius: 0rem; /* 0px */
+  border-top-right-radius: 1rem; /* 0px */
+  border-bottom-right-radius: 1rem; /* 0px */
+  margin: 0 0.625rem; /* 10px */
+  width: 3.5rem;
+}
+
+.my-rounded-table-ta tbody tr td:last-child {
+  border-top-left-radius: 1rem; /* 8px */
+  border-bottom-left-radius: 1rem; /* 0px */
+  border-top-right-radius: 0; /* 0px */
+  border-bottom-right-radius: 0; /* 0px */
+  width: 7.5rem;
+  margin: 0 0.625rem; /* 10px */
+}
+
+/* Responsive design for all screen sizes */
+@media (max-width: 1200px) {
+  :root {
+    /* font-size: 13px; */
+  }
+
+  .my-rounded-table-ta th,
+  .my-rounded-table-ta td {
+    /* height: 2rem; 28px */
+  }
+
+  .my-rounded-table-ta.trashT,
+  .my-rounded-table-ta .squareT,
+  .my-rounded-table-ta .eyeT {
+    /* width: 1.75rem; 28px */
+    /* font-size: 0.875rem; */
+    height: 100%;
+  }
+}
+
+@media (max-width: 890px) {
+  :root {
+    font-size: 12px;
+  }
+  .buttonOfTable p {
+    /* font-size: 10px; */
+  }
+  .buttonOfTable {
+    font-size: 11px;
+  }
+  .my-rounded-table-ta th,
+  .my-rounded-table-ta td {
+    height: 2rem; /* 26px */
+    font-size: smaller;
+  }
+
+  .my-rounded-table-ta .trashT,
+  .squareT,
+  .eyeT {
+  }
+}
+.my-rounded-table-ta .trashT {
+  /* width: auto; */
+}
+@media (max-width: 650px) {
+  .my-rounded-table-ta {
+    width: 600px;
+  }
+}
+@media (max-width: 580px) {
+  :root {
+    font-size: 11px;
+  }
+  .buttonOfTable {
+    font-size: 11px;
+  }
+  .my-rounded-table-ta th,
+  .my-rounded-table-ta td {
+    height: 2rem; /* 32px */
+    font-size: unset;
+  }
+
+  .my-rounded-table-ta .trashT,
+  .my-rounded-table-ta .squareT,
+  .my-rounded-table-ta .eyeT {
+    /* width: 1.25rem; 20px */
+    /* font-size: 0.75rem; */
+    height: 100%;
+  }
+
+  .my-rounded-table-ta tbody tr td:first-child {
+    border-top-left-radius: 0rem; /* 8px */
+    border-bottom-left-radius: 0rem; /* 0px */
+    border-top-right-radius: 1rem; /* 0px */
+    border-bottom-right-radius: 1rem; /* 0px */
+  }
+  .my-rounded-table-ta tbody tr td:last-child {
+    border-top-left-radius: 1rem; /* 8px */
+    border-bottom-left-radius: 1rem; /* 0px */
+    border-top-right-radius: 0; /* 0px */
+    border-bottom-right-radius: 0; /* 0px */
+  }
+}
+
+@media (max-width: 500px) {
+  :root {
+    font-size: 11px;
+  }
+  .my-rounded-table-ta {
+    /* width: 100%; */
+  }
+
+  .buttonOfTable {
+    font-size: 0.7rem;
+  }
+  .my-rounded-table-ta th,
+  .my-rounded-table-ta td {
+    height: 2rem; /* 30px */
+    font-size: 0.8125rem; /* 13px */
+  }
+
+  .my-rounded-table-ta .trashT,
+  .my-rounded-table-ta .squareT,
+  .my-rounded-table-ta .eyeT {
+    /* width: 1rem; 16px */
+    /* font-size: 0.7rem; */
+    height: 100%;
+  }
+
+  .my-rounded-table-ta tbody tr td:first-child {
+    border-top-left-radius: 0rem; /* 8px */
+    border-bottom-left-radius: 0rem; /* 0px */
+    border-top-right-radius: 1rem; /* 0px */
+    border-bottom-right-radius: 1rem; /* 0px */
+  }
+  .my-rounded-table-ta tbody tr td:last-child {
+    border-top-left-radius: 1rem; /* 8px */
+    border-bottom-left-radius: 1rem; /* 0px */
+    border-top-right-radius: 0; /* 0px */
+    border-bottom-right-radius: 0; /* 0px */
+  }
+  .buttonOfTable {
+    border-radius: 12px;
+    width: fit-content;
+    /* padding: 0px, 10px, 0px, 10px; */
+
+    background-color: #4941a6;
+    color: #ffff;
+    border: none;
+  }
+}
+
+@media (max-width: 450px) {
+  :root {
+    font-size: 9px;
+  }
+  .my-rounded-table-ta {
+    /* width: 100%; */
+  }
+  .my-rounded-table-ta th,
+  .my-rounded-table-ta td {
+    height: 1.75rem; /* 28px */
+    font-size: 1rem; /* 12px */
+  }
+  .my-rounded-table-ta .trashT {
+    height: 1000px;
+  }
+  .my-rounded-table-ta .trashT,
+  .my-rounded-table-ta .squareT,
+  .my-rounded-table-ta.eyeT {
+    margin-left: 4px;
+    margin: 0;
+    /* font-size: 1rem; */
+    height: 100%;
+  }
+  .my-rounded-table-ta tbody tr td:last-child {
+    margin: 0 0.625rem;
+
+    border-top-left-radius: 1rem; /* 8px */
+    border-bottom-left-radius: 1rem; /* 0px */
+    border-top-right-radius: 0; /* 0px */
+    border-bottom-right-radius: 0; /* 0px */
+  }
+  .my-rounded-table-ta tbody tr td:first-child {
+    border-top-right-radius: 1rem; /* 8px */
+    border-bottom-right-radius: 1rem; /* 0px */
+    border-top-left-radius: 0; /* 0px */
+    border-bottom-left-radius: 0; /* 0px */
+    margin: 0 0.625rem; /* 10px */
+    width: 3.5rem;
+  }
+  .buttonOfTable {
+    border-radius: 8px;
+    width: fit-content;
+    /* padding: 0px, 10px, 0px, 10px; */
+
+    background-color: #4941a6;
+    color: #ffff;
+    border: none;
+  }
+}
+
+@media (max-width: 450px) {
+  :root {
+    font-size: 12px;
+  }
+
+  .my-rounded-table-ta th,
+  .my-rounded-table-ta td {
+    height: 2rem; /* 32px */
+    font-size: smaller;
+  }
+
+  .my-rounded-table-ta .trashT,
+  .my-rounded-table-ta .squareT,
+  .my-rounded-table-ta .eyeT {
+    /* width: 0.75rem; 12px */
+    /* font-size: 0.5rem; */
+    height: 100%;
+  }
+
+  .my-rounded-table-ta tbody tr td:last-child {
+    margin: 0 0.625rem;
+
+    border-top-left-radius: 1rem; /* 8px */
+    border-bottom-left-radius: 1rem; /* 0px */
+    border-top-right-radius: 0; /* 0px */
+    border-bottom-right-radius: 0; /* 0px */
+  }
+  .my-rounded-table-ta tbody tr td:first-child {
+    border-top-right-radius: 1rem; /* 8px */
+    border-bottom-right-radius: 1rem; /* 0px */
+    border-top-left-radius: 0; /* 0px */
+    border-bottom-left-radius: 0; /* 0px */
+    margin: 0 0.625rem; /* 10px */
+    width: 3.5rem;
+  }
+}
+.buttonOfTable {
+  border-radius: 15px;
+  width: fit-content;
+  /* padding: 0px, 10px, 0px, 10px; */
+
+  background-color: #4941a6;
+  color: #ffff;
+  border: none;
+}

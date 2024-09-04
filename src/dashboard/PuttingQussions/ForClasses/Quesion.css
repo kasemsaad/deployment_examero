@@ -1,0 +1,108 @@
+/* .questionContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.question {
+  height: 80% !important;
+} */
+
+@media (max-width: 450px) {
+  .MyForm {
+    width: 100% !important;
+  }
+  .class-info-button {
+  }
+  .class-info-button {
+    height: 100%;
+    width: 100%;
+  }
+  .class-info-button p {
+    font-size: 11px;
+    /* margin-bottom: 20px; */
+    width: fit-content;
+    transform: translate(-6px, 10px);
+  }
+  .info-ma {
+    width: 76% !important;
+  }
+}
+.foot-puttinQuetion {
+  height: 10px;
+
+  background-color: blue;
+}
+@media (max-width: 420px) {
+  .MyForm {
+    width: 100% !important;
+  }
+  .class-info-button div {
+  }
+
+  /* .class-info-button {
+    width: 5.5rem !important;
+  } */
+  .class-info-button p {
+    font-size: 12px;
+  }
+  .class-info-button {
+    font-size: 13px;
+  }
+  .my-button {
+    width: 4rem;
+  }
+}
+
+.add-class-button {
+  height: 32.63px;
+  background-color: #ff7380;
+  border-radius: 32.63px;
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 127px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.add-class-button div {
+  height: 100%;
+  width: 93%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-class-button div p {
+  margin: 0%;
+}
+.overTable {
+  width: 660px;
+}
+.MyTable {
+  width: 100%;
+  height: 400px;
+  overflow: auto;
+}
+.nextButton-que {
+  height: 9rem;
+  display: flex;
+  align-items: center;
+}
+.nexB2 {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 72px;
+  align-items: flex-start;
+  width: 100%;
+}
+.nexB2 .MyButton-qu {
+  background-color: #c01f59;
+  width: 7rem;
+  height: auto;
+  padding: 5px;
+  border: none;
+  color: white;
+  border-radius: 20px;
+}

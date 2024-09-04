@@ -1,0 +1,14 @@
+.camera_and_input{
+    width: 100% !important;
+}
+.imageInput_qbank{
+    width: 100%;
+}
+
+.background_drop{
+       background-color: #4941a6;
+       color:white;
+}
+select.background_drop:hover {
+    background-color: #007bff; 
+}

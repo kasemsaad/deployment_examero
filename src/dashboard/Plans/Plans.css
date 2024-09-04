@@ -1,0 +1,25 @@
+
+
+@media (min-width: 330px) and (max-width: 550px){
+.wraber_student_div{
+    transform: translate(14px, -3px) !important;
+}
+.examAailable{
+  font-size: 11px;
+}
+.wraber_all_button{
+  flex-direction: column !important;
+}
+.wraber_plus_dec{
+  margin-top: 12px;
+
+}
+}
+.modal-backdrop.show{
+    opacity: 0;
+}
+.modal-backdrop {
+  position: absolute !important;
+  width: 0;
+}
+

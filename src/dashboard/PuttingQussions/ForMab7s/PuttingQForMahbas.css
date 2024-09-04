@@ -1,0 +1,14 @@
+.question-dash-mab {
+  width: 80%;
+}
+@media (max-width: 450px) {
+  .question-dash-mab {
+    width: 100%;
+  }
+  .mab7asContainer {
+    width: 100%;
+  }
+  .class-info-button-containerr {
+    margin-top: 86px;
+  }
+}

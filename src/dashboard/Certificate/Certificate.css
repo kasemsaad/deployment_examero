@@ -1,0 +1,41 @@
+@media (min-width: 600px) and (max-width: 767px){
+.label_logo_{
+    font-size: 1.5vw  !important;
+}
+}
+.selected-image {
+    border: 4px solid #FF7380; /* Highlight color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional shadow effect */
+    transform: scale(1.0); /* Slightly enlarge the image */
+    transition: all 0.2s ease; /* Smooth transition */
+}
+@media (max-width: 599px){
+    .label_logo_{
+        font-size: 1.5vw  !important;
+    }
+    .noSelect{
+        margin-top: 0px !important;
+
+    }
+   
+    .headerOfAll{
+        font-size: 18px !important;
+        margin-right: 8px !important;
+    }
+
+}
+@media (min-width: 350px) and (max-width: 430px){
+    .label_logo_{
+        font-size: 1.5vw !important;
+    }
+    .noSelect{
+     margin-top: 0px;
+    }
+    .headerOfAll{
+        font-size: 18px !important;
+        margin-right: 8px !important;
+    }
+
+
+}
+
